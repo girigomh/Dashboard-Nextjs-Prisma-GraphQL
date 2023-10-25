@@ -1,0 +1,148 @@
+{
+  "invoice": "Faktura",
+  "headers": {
+    "search": "Fakturaer",
+    "create": "Opret faktura",
+    "edit": "Rediger faktura",
+    "details": "Faktura detaljer",
+    "customer": "Kunder",
+    "orderLines": "Ordrelinjer",
+    "invoiceInformation": "Fakturainformation",
+    "paymentDetails": "Betalingsoplysninger",
+    "task": "Opgaveinformation",
+    "status": "Status",
+    "alertMsg": "Her er overblikket over dine fakturaer Send hurtigt og nemt en faktura til dine kunder 🙌 Få et samlet overblik på dine fakturaers status."
+  },
+  "labels": {
+    "amount": "Beløb",
+    "customer": "Kunde",
+    "customerName": "Navn",
+    "customerContact": "Kunde kontaktperson",
+    "customerType": "Type",
+    "customerEmail": "Kunde email",
+    "sendInvoiceCopyTo": "Send fakturakopi til",
+    "task": "Opgave",
+    "customerAddress": "Adresse",
+    "status": "Status",
+    "vacationPayment": "Tilføj ferieindbetaling",
+    "visibleId": "Kunde faktura nummer",
+
+    "invoiceDate": "Fakturadato",
+    "startDate": "Start dato",
+    "endDate": "Slut dato",
+    "useCredit": "Brug en kredit på denne faktura",
+    "discount": "Rabat",
+
+    "paymentDueDays": "Betalingsdage",
+
+    "jobType": "Job Type",
+    "hours": "Timer",
+    "perHour": "Per time",
+    "hoursWorked": "Antal timer",
+    "reference": "Reference",
+
+    "description": "Beskrivelse",
+    "quantity": "Antal",
+    "unitPrice": "Pris",
+    "price": "Pris",
+    "currency": "Valuta",
+    "lineTotal": "Total",
+
+    "subtotal": "Subtotal",
+    "vat25": "Moms 25%",
+    "total": "Totalt",
+    "paidAmount": "Betalt",
+
+    "includeVat": "Fakturer med moms",
+    "termsAccepted": "Betingelser accepteret",
+    "user": "Bruger",
+    "economicInvoiceId": "E-conomic ID",
+    "earlyPayment": "Hurtig udbetaling"
+  },
+  "descriptions": {
+    "reference": "Skriv en reference, hvis kunden har brug for dette. Ellers efterlad feltet tomt.",
+    "includeVat": "Som udgangspunkt er der altid moms på dine ydelser, med mindre det er undervisning eller til selskaber udenfor Danmark i EU.",
+    "vacationPayment": "Tilføj, hvis du vil tilbageholde 12,5%, for at tilføje til din feriekonto.",
+    "credit_one": "{{count}} kredit",
+    "credit_other": "{{count}} kreditter",
+    "useCredit": "Du har i øjeblikket $t(descriptions.credit, {\"count\": {{credits}} }) tilgængelig på din konto. Du kan bruge en kredit til at modtage {{reward}} i rabat på din fakturagebyr. For at bruge denne kredit, skal du markere afkrydsningsfeltet nedenfor.",
+    "earlyPayment": "Klik her, hvis du vil have dine penge på din konto indenfor 24 timer - uanset hvor lang betalingsfrist din kunde har. Det koster {{amount}}%, og du kan læse mere om <referenceLink>betingelserne her.</referenceLink>"
+  },
+  "info": {
+    "paymentDueDays": "Indtast hvor mange dage din kunde har til at betale. Er du i tvivl, er 8 til 11 dage en god standard.",
+    "startDate": "Bruges kun internt, og bliver ikke vist til din kunde.",
+    "endDate": "Bruges kun internt, og bliver ikke vist til din kunde.",
+    "jobType": "Bruges kun internt, og bliver ikke vist til din kunde.",
+    "hoursWorked": "Bruges kun internt, og bliver ikke vist til din kunde.",
+    "submit": "Når du indsender din faktura, bliver den først godkendt af Factofly teamet, før den bliver leveret til din kunde.\n\nDu kan følge din fakturas status løbende. Den vil skifte fra \"Sendt\" til \"Afsendt til firma\", når vi har sendt til din kunde."
+  },
+  "buttons": {
+    "submit": "Indsend faktura",
+    "update": "Opdater faktura",
+    "edit": "Rediger",
+    "copy": "Kopier faktura",
+    "saveAsDraft": "Gem som kladde",
+    "deleteLine": "Slet ordrelinje",
+    "addLine": "Tilføj ordrelinje",
+    "downloadContract": "Download kontrakt",
+    "send": "Sende",
+    "unsend": "Afsende",
+    "sendToEconomic": "Sende til E-conomic",
+    "sendToCompany": "Sendt til firma",
+    "salaryPaid": "Løn udbetalt",
+    "paymentReceived": "Betaling modtaget"
+  },
+  "validation": {
+    "termsAccepted": "Betingelser skal godkendes"
+  },
+  "messages": {
+    "updated": "Faktura opdateret",
+    "created": "Faktura oprettet",
+    "updatedStatus": "Faktura status opdateret",
+    "createAs": "Du opretter denne faktura som {{- displayName}}",
+    "noneSelected": "Ingen faktura valgt",
+    "pleaseSelectInvoice": "Vælg venligst en faktura fra venstre side.",
+    "perHour": "/time",
+    "discountApplied": "Der er krediteret denne faktura, der giver en rabat på {{discount}}",
+    "noVacationPayment": "Ingen ferieindbetaling",
+    "withVacationPayment": "Med ferieindbetaling",
+    "salaryUpdated": "Løn opdateret",
+    "deductionsApproved": "Fradrag godkendt"
+  },
+  "errors": {
+    "create": "Fejl ved oprettelse af faktura",
+    "update": "Fejl ved opdatering af faktura",
+    "updateStatus": "Fejl ved opdatering af faktura status",
+    "copy": "Der opstod en fejl med at kopiere den originale faktura.",
+    "salaryUpdate": "Fejl ved oprettelse af løn",
+    "deductionsApproval": "Fejl ved godkendelse af fradrag"
+  },
+  "terms": "Ved oprettelse af fakturaen accepterer jeg de almindelige <termsLink>forretningsbetingelser</termsLink>. Herunder at oplysningerne er korrekte, og at opgaven udelukkende kan faktureres og betales til Factofly.",
+  "statuses": {
+    "CANCELLED": "Annulleret",
+    "COMPANY_DISPUTE": "Uoverenstemmelse med firma",
+    "DEBT_COLLECTION": "Til inddrivelse",
+    "DENIED_BY_COMPANY": "Afvist af firma",
+    "DRAFT": "Kladde",
+    "LATE_PAYMENT": "Betaling forsinket",
+    "PAID": "Betalt",
+    "PENDING": "Afventer",
+    "SALARY_PAID": "Løn udbetalt",
+    "SENT": "Sendt",
+    "SENT_TO_COMPANY": "Sendt til firma",
+    "SENT_TO_COMPANY_NEEDS_CONTRACT": "Sendt til firma - behovskontrakt",
+    "SENT_TO_COMPANY_CONTRACT_MADE": "Sendt til firma - kontrakt indgået",
+    "SENT_TO_COMPANY_AWAITING_APPROVAL": "Sendt til virksomhed - afventer godkendelse",
+    "APPROVED_BY_COMPANY": "Godkendt af virksomheden",
+    "PAYMENT_RECEIVED": "Betaling modtaget",
+    "PAYMENT_ON_HOLD": "Betaling tilbageholdt",
+    "SALARY_PAID_CUSTOMER_PAID": "Løn udbetalt - kunde betalt",
+    "SALARY_PAID_CUSTOMER_NOT_PAID": "Løn udbetalt - kunne ikke betalt",
+    "MORE_INFO_NEEDED": "Mere info nødvendig",
+
+    "OVERDUE": "Forsinket",
+    "OPEN": "Åben",
+    "PAID_OUT": "Udbetalt",
+    "EXPIRED": "Udløbet"
+  }
+}
